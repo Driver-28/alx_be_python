@@ -8,3 +8,4 @@ def perform_operation(num1: float, num2: float, operation: str):
     elif operation == "divide":
         if num2 == 0:
             return "Error: Division by zero"
+        return num1 / num2
