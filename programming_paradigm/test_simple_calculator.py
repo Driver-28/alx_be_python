@@ -3,10 +3,10 @@ from simple_calculator import SimpleCalculator
 class TestSimpleCalculator(unittest.TestCase):
     def setup(self):
         self.calc = SimpleCalculator()
-    def test_add(self):
-        self.assertEqual(self.calc.add(3,5),8)
-        self.assertEqual(self.calc.add(5,10),-5)
-        self.assertEqual(self.calc.add(0,0),0)
+    def test_addition(self):
+        self.assertEqual(self.calc.addition(3,5),8)
+        self.assertEqual(self.calc.addition(5,10),-5)
+        self.assertEqual(self.calc.addition(0,0),0)
     def test_substract(self):
         self.assertEqual(self.calc.substract(10,5),5)
         self.assertEqual(self.calc.substract(5,10),-5)
