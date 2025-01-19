@@ -1,7 +1,7 @@
 class calculator:
     def __init__(self, numerator, denominator):
-        self.numerator = numerator
-        self.denominator = denominator if denominator != 0 else 1
+        self.numerator = numerator * 1.0
+        self.denominator = denominator * 1.0 if denominator != 0 else 1
     def safe_divide(self, numerator, denominator):
         try:
             result = numerator / denominator
