@@ -4,7 +4,7 @@ class calculator:
         self.denominator = denominator * 1.0 if denominator != 0 else 1
     def safe_divide(self, numerator, denominator):
         try:
-            result = numerator / denominator
+            result = self.numerator / self.denominator
             print(f"The result of the division is {result}")
         except ZeroDivisionError:
             print("Error: Cannot divide by zero.")
