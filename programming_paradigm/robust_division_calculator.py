@@ -1,8 +1,8 @@
 class calculator:
     def safe_divide(self, numerator, denominator):
         try:
-            self.a = float (numerator)
-            self.b = float (denominator)
+            self.numerator = float (numerator)
+            self.denominator = float (denominator)
             result = numerator / denominator
             print(f"The result of the division is {result}")
         except ZeroDivisionError:
