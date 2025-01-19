@@ -7,7 +7,7 @@ class divide:
                 print("Error: Cannot divide by zero.")
                 self.denominator = 1.0
         except ValueError:
-            print("Error: please enter numeric values only.")
+            print("Error: Please enter numeric values only.")
             self.numerator = 0.0
             self.denominator = 1.0
     def safe_divide(self):
