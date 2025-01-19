@@ -1,4 +1,4 @@
-class safe_divide:
+class divide:
     def __init__(self, numerator, denominator):
         self.numerator = float(numerator)
         self.denominator = float(denominator)
