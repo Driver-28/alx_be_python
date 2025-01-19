@@ -1,13 +1,9 @@
-class safe_divide:
-    def __init__(self, numerator, denominator):
-        self.numerator = numerator
-        self.denominator = denominator
-    def divide(self):
-        try:
-            num = float(self.numerator)
-            denom float(self.denominator)
+def safe_divide(numerator, denominator):
+    try:
+        num = float(numerator)
+        denom float(denominator)
             if denom == 0:
                 return "Error: Cannot divide by zero."
-            return num / denom
+            return f"The result of the division is {num / denom}"
         except ValueError:
             return "Error: please enter numeric values only."
