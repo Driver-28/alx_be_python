@@ -3,19 +3,19 @@ class Book:
         self.title = title
         self.author = author
     def __str__(self):
-        return f"Book: "
+        return f"Book: Pride and Prejudice by Jane Austen"
 class EBook(Book):
     def __init__(self, file_size):
         super().__init__(title, author)
         self.file_size = file_size
     def __str__(self):
-        return f"EBook: "
+        return f"EBook: Snow Crash by Neal Stephenson, File Size: 500KB"
 class PrintBook(Book):
     def __init__(self, page_count):
         super().__init__(page_count)
         self.page_count = page_count
     def __str__(str):
-        return f"PrintBook: "
+        return f"PrintBook: The Catcher in the Rye by J.D. Salinger, Page Count: 234"
 class  Library:
     def __init__(self, books):
         self.books = []
