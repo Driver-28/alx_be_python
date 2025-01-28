@@ -8,6 +8,6 @@ class Rectangle(Shape):
     def area(self, length, width):
         return length * width
 class Circle(Shape):
-    def area(self, radius):
+    def __init__(self, radius):
         self.radius = radius
-        return π × radius²
+        return π × radius**2
