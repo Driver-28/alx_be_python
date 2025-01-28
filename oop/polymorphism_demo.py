@@ -9,4 +9,5 @@ class Rectangle(Shape):
         return length * width
 class Circle(Shape):
     def area(self, radius):
+        self.radius = radius
         return π × radius²
