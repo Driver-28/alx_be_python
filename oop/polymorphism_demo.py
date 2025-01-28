@@ -10,4 +10,4 @@ class Rectangle(Shape):
 class Circle(Shape):
     def __init__(self, radius):
         self.radius = radius
-        return π × radius ** 2
+        return π × self.radius ** 2
